@@ -1,0 +1,113 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Helvetica, sans-serif;
+	font-size: 10px;
+}
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+	box-sizing: border-box;
+}
+ul{
+	display: block;
+	list-style:none;
+}
+.Select-Date{
+	font-size: 1.4rem;
+	padding-bottom: 0.8rem;
+}
+.Select-Date input{
+	background: url(../img/date.png);
+	background-repeat: no-repeat;
+	background-position: 1.2rem 1rem;
+	background-size: 1.2rem 1.2rem;
+	padding-left: 3.6rem;
+	display: inline-block;
+}
+
+.bb-tab{
+	height: 4.4rem;
+	line-height: 4.4rem;
+	border-bottom: 0.1rem solid #dddddd;
+	background: #fff;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.bb-tab li{
+	display: inline-block;
+	margin: 0 4rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: #666;
+}
+.bb-tab li.active{
+	border-bottom: 0.2rem solid #5b8edb;
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: #5B8EDB;
+	height: 4.3rem;
+}
+.content li{
+	margin: 0.8rem;
+	margin-top: 5.2rem;
+	background: #fff;
+	display: none;
+	font-size: 1.2rem;
+}
+.table-container{
+	overflow-x: visible;
+	-webkit-overflow-scrolling:touch;
+}
+.table-container table{
+	border-collapse: collapse;
+    border: none;
+	width: 32.9rem;
+	table-layout: fixed;
+}
+.table-container table th{
+	height: 3.2rem;
+	border:0.1rem solid #dddddd;
+	font-weight: 400;
+	color: #666;
+	text-align: center;
+	line-height: 1.8rem;
+	background: #eef6ff;
+}
+.table-container table tr:nth-child(odd) {
+	background: #f9fcff
+}
+.table-container table td{
+	height: 3.2rem;
+	padding: 0 0.2rem;
+	word-wrap:break-word;
+	text-align: center;
+	border:0.1rem solid #dddddd;
+	color: #333;
+	line-height: 1.3rem;
+}
+
+.table-container table td.date-edit input{
+	background: url(../img/edit.png);
+	background-repeat: no-repeat;
+	background-position: 0 0.9rem;
+	background-size: 1.2rem 1.2rem;
+	font-size: 1.3rem;
+	padding: 0.8rem 0;
+	padding-left: 2rem;
+	margin-left: 1.2rem;
+	border: none;
+	outline: none;
+	width: 85%;
+	line-height: 1.6rem;
+}
+.swiper-container {
+    width: 600px;
+    height: 300px;
+	background: #003399;
+}  
